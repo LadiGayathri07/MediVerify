@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <div className="flex items-center justify-between py-4 px-4 sm:px-6 lg:px-10">
             <Link to="/">
-                <img src={logo} alt="MediCheck Logo" className="w-30 sm:w-32 lg:w-60" />
+                <img src={logo} alt="MediCheck Logo" className="w-80 sm:w-32 lg:w-80 mt-16 ml-14" />
             </Link>
             <div>
                 {user ? (
@@ -19,9 +19,6 @@ const Navbar = () => {
                     </div>
                 ) : (
                     <div className="flex items-center gap-2 sm:gap-5">
-                        <button className="bg-zinc-800 text-white px-7 py-2 sm:px-10 text-sm rounded-full">
-                            Login
-                        </button>
                     </div>
                 )}
             </div>
