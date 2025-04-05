@@ -1,0 +1,6 @@
+venv/
+*.pyd
+*.dll
+node_modules/
+dist/
+.env
