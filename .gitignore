@@ -1,6 +1,9 @@
+# Ignore virtual environment
 venv/
+
+# Ignore large files
+*.pkl
 *.pyd
 *.dll
-node_modules/
-dist/
-.env
+__pycache__/
+*.log
